@@ -32,7 +32,44 @@ console.log(booleaninBoolean); // converts number to boolean   // converts numbe
 */
 
 
-let someNumber = 123;
-let stringNumber = String(someNumber);
-console.log(stringNumber);
-console.log(typeof stringNumber);  
+//let someNumber = 123;
+//let stringNumber = String(someNumber);
+//console.log(stringNumber);
+//console.log(typeof stringNumber);  
+
+//************************ opertions *********************** 
+
+let value = 5
+let negValue = -value; // negation operator
+//console.log(negValue); // -5
+
+//console.log(2+2); // 4
+//console.log("2" + "2"); // "22" string concatenation
+//console.log("2" + 2); // "22" string concatenation
+//console.log(2 - 2); // 0
+//console.log(2 * 2); // 4 use of multiplication operator
+//console.log(2 ** 3); // 8 use of power operator 2*2*2
+//console.log(2 / 2); // 1
+//console.log(5 % 2); // 1 (modulus operator gives remainder)
+
+let str1 = "Hello ";
+let str2 = "World!";
+
+let str3 = str1 + str2; // concatenation operator   
+// console.log(str3); // "Hello World!"
+
+// console.log( 1 +  "2" + 3); // "123"
+// console.log( 1 +  2 + "3"); // "33"
+// console.log( "1" +  2 + 3); // "123"
+// console.log( "1" -  2 + 3); // 2  ( here - operator converts string to number)
+
+// console.log(+true); // 1  (unary plus operator converts boolean to number)
+// console.log(+""); // 0
+
+let num1, num2, num3;
+
+num1 = num2 = num3 = 2 + 2 ; // right to left associativity
+
+let gamecouter = 100;
+++gamecouter; // increment operator
+console.log(gamecouter); // 101
