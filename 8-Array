@@ -1,3 +1,17 @@
 // Array
    
 const myArr = [0, 1, 2, 3, 4, 5] 
+
+
+console.log(myArr[4]);
+
+// Array mrthods
+
+myArr.push(6)
+//4
+// [
+//   0, 1, 2, 3,
+//   4, 5, 6
+// ]
+
+console.log(myArr);
