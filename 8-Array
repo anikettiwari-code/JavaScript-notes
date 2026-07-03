@@ -37,4 +37,4 @@ const myArr = [0, 1, 2, 3, 4, 5]
 // console.log("C ", myArr); // [4,5]
 // console.log(myn2);
 
-//The difference is splice manipulate the original array so the final output change 
+//The difference is splice manipulate the original array so the final output change.
