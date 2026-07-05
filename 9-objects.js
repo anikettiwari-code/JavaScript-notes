@@ -19,6 +19,9 @@ console.log(JsUser.email) // aniket@emi.com
 console.log(JsUser["email"]) // aniket@emi.com
 //console.log(JsUser.full name);// but don't use (.) in in object it's so error
 console.log(JsUser["full name"]); // Aniket tiwari
-console.log(typeof JsUser[mySym]); // using [] to show symbal
+console.log(JsUser[mySym]); // using [] to show symbal // string
+
+JsUser.email = "aniket@goo.com" // change the email to aniket@goo.com
+Object.freeze(JsUser) // use to freeze the object
 
 
