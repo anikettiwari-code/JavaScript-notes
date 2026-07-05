@@ -10,8 +10,8 @@ const JsUser ={
     lastLoginDays: ["monday" , "Saturday" ]
 }
 
-console.log(JsUser.email)
-console.log(JsUser["email"])
-//console.log(JsUser"full name");//
+console.log(JsUser.email) // aniket@emi.com
+console.log(JsUser["email"]) // aniket@emi.com
+//console.log(JsUser.full name);// but don't use (.) in in object it's so error
 
 console.log(JsUser["full name"]);
